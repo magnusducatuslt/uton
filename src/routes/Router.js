@@ -4,6 +4,7 @@ import { Login } from "../components/Login/Login";
 import { Scanner } from "./Scanner/Scanner";
 import { StartTrip } from "./StartTrip/StartTrip";
 import { Trip } from "./Trip/Trip";
+import { TripResults } from "./TripResults/TripResults";
 
 export class Routes extends Component {
   render () {
@@ -15,6 +16,7 @@ export class Routes extends Component {
           <Route path="/scanner" component={Scanner} />
           <Route path="/start-trip" component={StartTrip} />
           <Route path="/trip" component={Trip} />
+          <Route path="/trip-results" component={TripResults} />
         </Switch>
       </Router> 
     )

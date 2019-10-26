@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Redirect} from "react-router-dom";
 import QrReader from 'react-qr-scanner'
 import "./Scanner.scss";
 
@@ -6,6 +7,11 @@ export class Scanner extends Component {
   state = {
     delay: 100,
     result: 'No result',
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({isRedirect: true});
+    }, 5000);
   }
   handleScan = (data) => {
     this.setState({
@@ -21,7 +27,6 @@ export class Scanner extends Component {
         <QrReader
           delay={this.state.delay}
           style={{ width: '100%' }}
-          onError={this.handleError}
           onScan={this.handleScan}
           />
         <div className="scanner-description">
@@ -31,7 +36,7 @@ export class Scanner extends Component {
             <p className="scanner-description-text__description">to full inside the frame</p>
           </div>
         </div>
-        {/* <p>{this.state.result}</p> */}
+        {this.state.isRedirect && <Redirect to="/start-trip" />}
       </div>
     )
   }
