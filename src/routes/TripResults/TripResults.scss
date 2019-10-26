@@ -1,0 +1,67 @@
+@import "../../assets/styles/varaibles.scss";
+
+.trip-results {
+  height: 100vh;
+  background: url(../../assets/img/background-results.png) no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.trip-results-card {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 30px;
+  background: $main-green;
+}
+
+.trip-results-card__text {
+  letter-spacing: 0.75px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.trip-results-card__ride {
+  font-size: 35px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.trip-results-card__time {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 16px;
+}
+
+.trip-results-card__time-result {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 16px;
+}
+
+.trip-results-card__price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 16px;
+}
+
+.trip-results-card__price-result {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.trip-results-card__payment-details {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 30px;
+}
+
+.trip-results__button {
+  margin-top: 50px;
+}

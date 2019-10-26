@@ -1,0 +1,38 @@
+@import "../../assets/styles/varaibles.scss";
+
+.start-trip {
+  align-items: center;
+  height: 100vh;
+  padding: 40% 10%;
+  background: $green-gradient-bg;
+}
+
+.start-trip-button {
+  justify-content: center;
+  align-items: center;
+}
+
+.start-trip-text {
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.start-trip-text__status {
+  margin-top: 20px;
+}
+
+.start-trip-button {
+  cursor: pointer;
+  margin-top: 50%;
+  background: #79BC9B;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}

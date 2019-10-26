@@ -1,0 +1,28 @@
+@import "../../assets/styles/varaibles.scss";
+
+.trip {
+  padding: 10% 20px;
+  height: 100vh;
+  background: $green-gradient-bg;
+}
+
+.trip-info {
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #79BC9B;
+  color: white;
+  text-align: center;
+  height: 80px;
+}
+
+.trip-timer {
+  margin-top: 40%;
+  color: white;
+  font-size: 34px;
+  text-align: center;
+}
+
+.trip-button {
+  margin-top: 50%;
+}
