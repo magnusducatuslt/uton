@@ -12,7 +12,7 @@ componentDidMount = () => {
     )
 
     const txParams = {
-      nonce: '0x00',
+      nonce: web3.utils.toHex(42),
       gasPrice: '0x09184e72a000',
       gasLimit: '0x2710',
       to: '0x9fd6c8d42023fe1801c6167e94f73d1251e86bb5',
