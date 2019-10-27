@@ -1,0 +1,37 @@
+.login-wrap {
+  height: 100%;
+  padding: 0;
+  background: url(../../assets/img/background-login.png) no-repeat;
+  background-size: cover;
+}
+
+.login__headline {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.login {
+  padding: 20% 30px 50%;
+  height: 100vh;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.login-content {
+  margin-top: 65%;
+  width: 80%;
+}
+
+.login-content__email {
+  // margin-top: 10%;
+}
+
+.login-content__pass {
+  margin-top: 10%;
+}
+
+.login-content__btn {
+  margin-top: 10%;
+  width: 100%;
+}

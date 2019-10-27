@@ -1,0 +1,44 @@
+@import "../../assets/styles/varaibles.scss";
+
+.scanner {
+  height: 100vh;
+}
+
+.scanner-header {
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: $main-green;
+}
+
+.scanner-description {
+  background-color: $main-green;
+  height: 100%;
+  padding: 40px 30px 60px;
+}
+
+.scanner__text {
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+}
+
+.scanner-header__text {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.scanner-description-text {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.scanner-description-text__description {
+  margin-top: 20px;
+}
