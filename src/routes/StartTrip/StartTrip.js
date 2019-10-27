@@ -15,13 +15,13 @@ componentDidMount = () => {
       nonce: '0x00',
       gasPrice: '0x09184e72a000',
       gasLimit: '0x2710',
-      to: '0x0000000000000000000000000000000000000000',
+      to: '0x9fd6c8d42023fe1801c6167e94f73d1251e86bb5',
       value: '0x00',
       data: '0x7f7465737432000000000000000000000000000000000000000000000000000000600057',
     }
 
     // The second parameter is not necessary if these values are used
-    const tx = new EthereumTx(txParams, { chain: 'mainnet', hardfork: 'petersburg' })
+    const tx = new EthereumTx(txParams, { chain: 'ropsten', hardfork: 'petersburg' })
     tx.sign(privateKey)
     const serializedTx = tx.serialize().toString('hex')
     console.log(tx)
