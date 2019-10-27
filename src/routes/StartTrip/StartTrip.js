@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./StartTrip.scss";
 const EthereumTx = require('ethereumjs-tx').Transaction
 var Web3 = require('web3');
-var web3 = new Web3(new Web3.providers.HttpProvider("http://ropsten.infura.io/v3/76b350c099234a679772c47fc1d57c90"));
+var web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/76b350c099234a679772c47fc1d57c90"));
 export class StartTrip extends Component {
 componentDidMount = () => {
     const privateKey = Buffer.from(
